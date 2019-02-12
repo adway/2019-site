@@ -10,9 +10,7 @@ const page = 'About';
 
 export default () => (
   <Layout>
-    <Helmet>
-      <title>{siteInfo.title + ' | ' + page}</title>
-    </Helmet>
+    <Helmet title={siteInfo.title + ' | ' + page} />
     <H1>About Me</H1>
     <P>
       Hi! I’m Adway. I’m currently a sophomore at Saint John’s High School in

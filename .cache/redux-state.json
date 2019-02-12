@@ -235,7 +235,7 @@
       "resolve": "/Users/adway/dev/WebDevelopment/site",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "ea0b4f4d9b64a2a13857da7090fe7512",
+      "version": "25d964cc340d5e81e557b761fe74300d",
       "pluginOptions": {
         "plugins": []
       },
@@ -282,7 +282,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "581fe94ffea00b937647aa8ef0049d40",
+        "contentDigest": "6c4ddad59140462e5689290f7640b1be",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -391,17 +391,21 @@
       }
     },
     "Site": {
-      "siteMetadata": {},
+      "siteMetadata": {
+        "title": "Adway S. Wadekar",
+        "siteUrl": "https://adway.io",
+        "description": "Adway Wadekar's website"
+      },
       "port": "8000",
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-12T18:16:06.791Z",
+      "buildTime": "2019-02-12T18:34:53.503Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "23dad15945949c52c1ef02476cfd8423",
+        "contentDigest": "90a26c9637eebf89169b8f21e96415b0",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -449,7 +453,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "c5560fbad132af73b590574b53360d7e"
+    "PLUGINS_HASH": "745ccdd26c3cfd6f9e81362ab313b3f6"
   },
   "componentDataDependencies": {
     "nodes": {},

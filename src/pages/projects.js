@@ -30,9 +30,7 @@ const page = 'Projects';
 
 export default () => (
   <Layout>
-    <Helmet>
-      <title>{siteInfo.title + ' | ' + page}</title>
-    </Helmet>
+    <Helmet title={siteInfo.title + ' | ' + page} />
     <H1>Projects</H1>
     <P>
       I conduct projects in the area of social science. I have presented my work
