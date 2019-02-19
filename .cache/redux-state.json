@@ -231,11 +231,96 @@
         "owner": "internal-data-bridge"
       }
     },
+    "1943ff2f-9c0c-558d-8d0c-006603e8106a": {
+      "resolve": "/Users/adway/dev/WebDevelopment/site/node_modules/gatsby-plugin-react-helmet",
+      "id": "1943ff2f-9c0c-558d-8d0c-006603e8106a",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "3.0.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/adway/dev/WebDevelopment/site/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Manage document head data with react-helmet. Provides drop-in server rendering support for Gatsby.",
+        "version": "3.0.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "favicon",
+          "react-helmet",
+          "seo",
+          "document",
+          "head",
+          "title",
+          "meta",
+          "link",
+          "script",
+          "base",
+          "noscript",
+          "style"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "matthews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "63cc2aba3d6a89226dc05047b3fab989",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
       "resolve": "/Users/adway/dev/WebDevelopment/site",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "25d964cc340d5e81e557b761fe74300d",
+      "version": "924b1c75db0c194aa700748c9dec4b0c",
       "pluginOptions": {
         "plugins": []
       },
@@ -258,12 +343,12 @@
             "version": "^10.0.6"
           },
           {
-            "name": "react-helmet",
-            "version": "^5.2.0"
-          },
-          {
             "name": "gatsby",
             "version": "^2.0.118"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^3.0.6"
           },
           {
             "name": "react",
@@ -272,6 +357,14 @@
           {
             "name": "react-dom",
             "version": "^16.8.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.2.0"
+          },
+          {
+            "name": "react-typist",
+            "version": "^2.0.5"
           }
         ],
         "devDependencies": [],
@@ -282,7 +375,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "6c4ddad59140462e5689290f7640b1be",
+        "contentDigest": "076ddc22d433358ffa3f6e3edaad2fdf",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -400,12 +493,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-12T18:34:53.503Z",
+      "buildTime": "2019-02-19T17:52:38.176Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "90a26c9637eebf89169b8f21e96415b0",
+        "contentDigest": "e7838a59c1e897afafdfc2088d552290",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -453,7 +546,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "745ccdd26c3cfd6f9e81362ab313b3f6"
+    "PLUGINS_HASH": "84fbbc0f3c104a30c3abb6cb883df868"
   },
   "componentDataDependencies": {
     "nodes": {},

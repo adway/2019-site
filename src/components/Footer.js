@@ -15,7 +15,7 @@ const StyledFooter = styled('footer')`
 export default function Footer({ author, designAuthor }) {
   return (
     <StyledFooter>
-      Content &copy; {new Date().getUTCFullYear()} {author}
+       &copy; {new Date().getUTCFullYear()} {author}
     </StyledFooter>
   );
 }

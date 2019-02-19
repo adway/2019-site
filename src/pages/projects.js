@@ -31,7 +31,7 @@ const page = 'Projects';
 export default () => (
   <Layout>
     <Helmet title={siteInfo.title + ' | ' + page} />
-    <H1>Projects</H1>
+    <H1 children="Projects" />
     <P>
       I conduct projects in the area of social science. I have presented my work
       at the Worcester Regional Science and Engineering Fair, the Massachusetts
