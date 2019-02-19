@@ -17,7 +17,7 @@ export default () => (
       Shrewsbury, Massachusetts. I am interested in studying economics and would
       like to pursue an academic career in quantitative social policy. Feel free
       to view my résumé{' '}
-      <Link href="/favicon.ico" target="_blank">
+      <Link href="/Resume.pdf" target="_blank">
         here
       </Link>
       .
