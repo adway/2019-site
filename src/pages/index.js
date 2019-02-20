@@ -23,8 +23,13 @@ export default () => (
       .
     </P>
     <P>
-      I enjoy learning about economics, reading the news and taking pictures
-      with my Canon Rebel T5. I currently intern at the{' '}
+      I enjoy learning, reading the news and taking pictures with my Canon Rebel
+      T5. I'm working on{' '}
+      <Link href="https://stopioid.org" target="_blank">
+        Stopioid
+      </Link>
+      , which is an app that utilizes a decision tree alogrithm to predict and
+      prevent opioid use disorder. I currently intern at the{' '}
       <Link href="http://edc.town.westborough.ma.us" target="_blank">
         Town of Westborough’s Economic Development Committee
       </Link>
@@ -42,9 +47,9 @@ export default () => (
         Integrated STEM Education Education Conference{' '}
       </Link>
       . I have also won regional, state, and national awards at multiple science
-      fairs. I have helped lead the Saint John's Mock Trial team to a perfect
-      preliminary tournament. I am also a member of the French Club, and the Be
-      Like Brit Club.
+      fairs. At school, I have helped lead the Saint John's Mock Trial team to a
+      perfect preliminary tournament. I am also a member of the French Club, and
+      the Be Like Brit Club.
     </P>
   </Layout>
 );

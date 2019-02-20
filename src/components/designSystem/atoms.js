@@ -19,7 +19,8 @@ export default {
     site: '#a50104',
     text: '#000207',
     meta: '#747474',
-    complementary: '#005bc2'
+    complementary: '#005bc2',
+    duke: '#001A57'
   },
   font: {
     family: {

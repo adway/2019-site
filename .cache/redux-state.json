@@ -493,12 +493,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-19T17:54:12.272Z",
+      "buildTime": "2019-02-20T00:51:47.124Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "89b554e9a65435912a57b5e10662258d",
+        "contentDigest": "72314bc8e187fd9e09de4ffde9ba28ef",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

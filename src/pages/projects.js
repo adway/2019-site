@@ -5,7 +5,7 @@ import P from '../components/designSystem/P';
 import H1 from '../components/designSystem/H1';
 
 import { projects } from '../data';
-import Sans from '../components/designSystem/Sans';
+import Serif from '../components/designSystem/Serif';
 import styled from '@emotion/styled';
 
 import Helmet from 'react-helmet';
@@ -17,8 +17,8 @@ import {
   PlainLink
 } from '../components/designSystem/designSystem';
 
-const Description = styled(Sans)`
-  color: ${Atoms.colors.meta};
+const Description = styled(Serif)`
+  color: ${Atoms.colors.duke};
   font-size: 0.9em;
 `;
 

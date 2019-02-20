@@ -5,8 +5,8 @@ import Atoms from './designSystem/atoms';
 
 const StyledFooter = styled('footer')`
   border-top: 1px solid;
-  color: ${Atoms.colors.meta};
-  font-family: ${Atoms.font.family.sans};
+  color: ${Atoms.colors.text};
+  font-family: ${Atoms.font.family.serif};
   font-size: ${Atoms.font.size.small};
   margin-top: ${Atoms.spacing.large};
   padding: ${Atoms.spacing.small} 0;
@@ -15,7 +15,7 @@ const StyledFooter = styled('footer')`
 export default function Footer({ author, designAuthor }) {
   return (
     <StyledFooter>
-       &copy; {new Date().getUTCFullYear()} {author}
+      &copy; {new Date().getUTCFullYear()} {author}
     </StyledFooter>
   );
 }

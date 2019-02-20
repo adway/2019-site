@@ -6,8 +6,8 @@ import PlainList from './designSystem/PlainList';
 import PlainLink from './designSystem/PlainLink';
 
 const StyledHeader = styled('header')`
-  font-family: ${Atoms.font.family.sans};
-  font-size: ${Atoms.font.size.small};
+  font-family: ${Atoms.font.family.serif};
+  font-size: ${Atoms.font.size.regular};
   border-bottom: 1px solid;
   display: flex;
   flex-wrap: wrap;
