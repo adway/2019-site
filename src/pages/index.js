@@ -13,10 +13,13 @@ export default () => (
     <Helmet title={siteInfo.title + ' | ' + page} />
     <H1>About Me</H1>
     <P>
-      Hi! I’m Adway. I’m currently a sophomore at Saint John’s High School in
-      Shrewsbury, Massachusetts. I am interested in studying economics and would
-      like to pursue an academic career in quantitative social policy. Feel free
-      to view my résumé{' '}
+      Hi! I’m Adway. I’m currently a sophomore at{' '}
+      <Link href="http://www.stjohnshigh.org/" target="_blank">
+        Saint John’s High School
+      </Link>{' '}
+      in Shrewsbury, Massachusetts. I am interested in studying economics and
+      would like to pursue an academic career in quantitative social policy.
+      Feel free to view my résumé{' '}
       <Link href="/Resume.pdf" target="_blank">
         here
       </Link>
