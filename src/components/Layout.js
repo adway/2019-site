@@ -31,6 +31,12 @@ export default function Layout({ children, location, ...props }) {
       <React.Fragment>
         <Helmet>
           <title>{siteInfo.title}</title>
+          <link
+            rel="icon"
+            type="image/png"
+            href="assets/favicon.ico"
+            sizes="16x16"
+          />
         </Helmet>
         <Wrapper>
           <Header siteTitle={'Adway S. Wadekar'} />
