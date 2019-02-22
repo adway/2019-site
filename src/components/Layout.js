@@ -1,5 +1,5 @@
 import React from 'react';
-import Helmet from 'react-helmet';
+
 import { Global } from '@emotion/core';
 import { siteInfo } from '../data';
 import { Atoms, DesignSystemProvider } from './designSystem/designSystem.js';
@@ -29,15 +29,6 @@ export default function Layout({ children, location, ...props }) {
         }}
       />
       <React.Fragment>
-        <Helmet>
-          <title>{siteInfo.title}</title>
-          <link
-            rel="icon"
-            type="image/png"
-            href="assets/favicon.ico"
-            sizes="16x16"
-          />
-        </Helmet>
         <Wrapper>
           <Header siteTitle={'Adway S. Wadekar'} />
           <main>{children}</main>

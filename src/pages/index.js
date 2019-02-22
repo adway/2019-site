@@ -3,14 +3,11 @@ import Layout from '../components/Layout';
 import P from '../components/designSystem/P';
 import Link from '../components/designSystem/Link';
 import H1 from '../components/designSystem/H1';
-import Helmet from 'react-helmet';
-import { siteInfo } from '../data';
-
-const page = 'About';
+import Tab from '../components/designSystem/Tab';
 
 export default () => (
   <Layout>
-    <Helmet title={siteInfo.title + ' | ' + page} />
+    <Tab page="About" />
     <H1>About Me</H1>
     <P>
       Hi! I’m Adway. I’m currently a sophomore at{' '}

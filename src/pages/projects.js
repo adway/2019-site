@@ -8,14 +8,12 @@ import { projects } from '../data';
 import Serif from '../components/designSystem/Serif';
 import styled from '@emotion/styled';
 
-import Helmet from 'react-helmet';
-import { siteInfo } from '../data';
-
 import {
   Atoms,
   PlainList,
   PlainLink
 } from '../components/designSystem/designSystem';
+import Tab from '../components/designSystem/Tab';
 
 const Description = styled(Serif)`
   color: ${Atoms.colors.duke};
@@ -26,11 +24,9 @@ const padding = {
   paddingTop: '2em'
 };
 
-const page = 'Projects';
-
 export default () => (
   <Layout>
-    <Helmet title={siteInfo.title + ' | ' + page} />
+    <Tab page="Projects" />
     <H1 children="Projects" />
     <P>
       I conduct projects in the area of social science. I have presented my work
