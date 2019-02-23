@@ -6,6 +6,11 @@ export const siteInfo = {
 
 export const projects = [
   {
+    title: 'Predicting Opioid Use Disorder (OUD) Using Machine Learning',
+    link: 'https://out.adway.io',
+    description: 'This is the work behind the underlying algorithm to Stopioid.'
+  },
+  {
     title: 'Stopioid',
     link: 'https://stopioid.org',
     description:
