@@ -316,11 +316,90 @@
         "owner": "internal-data-bridge"
       }
     },
+    "b1674f69-3dee-5cf8-8a38-a16667a563b8": {
+      "resolve": "/Users/adway/dev/WebDevelopment/site/node_modules/gatsby-plugin-emotion",
+      "id": "b1674f69-3dee-5cf8-8a38-a16667a563b8",
+      "name": "gatsby-plugin-emotion",
+      "version": "4.0.4",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreateBabelConfig"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/adway/dev/WebDevelopment/site/node_modules/gatsby-plugin-emotion",
+      "packageJson": {
+        "name": "gatsby-plugin-emotion",
+        "description": "Gatsby plugin to add support for Emotion",
+        "version": "4.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "emotion",
+          "css-in-js"
+        ],
+        "author": {
+          "name": "Tegan Churchill",
+          "email": "churchill.tegan@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@emotion/babel-preset-css-prop",
+            "version": "^10.0.5"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0"
+          },
+          {
+            "name": "babel-preset-gatsby-package",
+            "version": "^0.1.3"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.4"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "@emotion/core",
+            "version": "^10.0.5"
+          },
+          {
+            "name": "gatsby",
+            "version": "^2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": null,
+      "children": [],
+      "internal": {
+        "contentDigest": "008faaef0d5145142e1f54300b99ddfe",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "7374ebf2-d961-52ee-92a2-c25e7cb387a9": {
       "resolve": "/Users/adway/dev/WebDevelopment/site",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "924b1c75db0c194aa700748c9dec4b0c",
+      "version": "78297c0403b4a5d314b4155a24ed343d",
       "pluginOptions": {
         "plugins": []
       },
@@ -345,6 +424,10 @@
           {
             "name": "gatsby",
             "version": "^2.0.118"
+          },
+          {
+            "name": "gatsby-plugin-emotion",
+            "version": "^4.0.4"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -375,7 +458,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "076ddc22d433358ffa3f6e3edaad2fdf",
+        "contentDigest": "3c6453bb01bb53db5c0a78b79b8aa0b8",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -493,12 +576,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-02-22T00:19:37.387Z",
+      "buildTime": "2019-03-11T01:04:46.836Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "249744bfeae088d6ad8ad6ba5718bf77",
+        "contentDigest": "4b7c438c829c30c1901c7ef1cf646e26",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -546,7 +629,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "84fbbc0f3c104a30c3abb6cb883df868"
+    "PLUGINS_HASH": "f3ab7068856563562c6200c402cc42bd"
   },
   "componentDataDependencies": {
     "nodes": {},

@@ -4,5 +4,10 @@ module.exports = {
     siteUrl: `https://adway.io`,
     description: `Adway Wadekar's website`
   },
-  plugins: [`gatsby-plugin-react-helmet`]
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-emotion`
+    }
+  ]
 };
