@@ -30,7 +30,6 @@ export default function Layout({ children, location, ...props }) {
       />
       <React.Fragment>
         <Wrapper>
-          <Header siteTitle={'Adway S. Wadekar'} />
           <main>{children}</main>
           <Footer
             author={siteInfo.authorName}
