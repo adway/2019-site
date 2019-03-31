@@ -6,6 +6,12 @@ export const siteInfo = {
 
 export const projects = [
   {
+    title: 'Predicting Suicidal Ideation Using Machine Learning',
+    link: 'https://www.dropbox.com/s/7765ipg6pzuq8ev/JSHSReport.docx?dl=0',
+    description:
+      'This project uses a decision tree algorithm to predict individuals at risk for suicidal ideation.'
+  },
+  {
     title: 'Predicting Opioid Use Disorder (OUD) Using Machine Learning',
     link: 'https://oud.adway.io',
     description: 'This is the work behind the underlying algorithm to Stopioid.'

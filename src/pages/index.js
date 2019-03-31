@@ -8,14 +8,14 @@ import Tab from '../components/designSystem/Tab';
 export default () => (
   <Layout>
     <Tab page="About" />
-    <H1>About Me</H1>
+    <H1>About</H1>
     <P>
       Hi! I’m Adway. I’m currently a sophomore at{' '}
       <Link href="http://www.stjohnshigh.org/" target="_blank">
         Saint John’s High School
       </Link>{' '}
       in Shrewsbury, Massachusetts. I am interested in studying economics and
-      would like to pursue an academic career in quantitative social policy.
+      would like to pursue an academic career in quantitative public policy.
       Feel free to view my résumé{' '}
       <Link href="/Resume.pdf" target="_blank">
         here
@@ -29,7 +29,7 @@ export default () => (
         Stopioid
       </Link>
       , which is an app that utilizes a decision tree alogrithm to predict and
-      prevent opioid use disorder. I currently intern at the{' '}
+      prevent opioid use disorder. I am an intern at the{' '}
       <Link href="http://edc.town.westborough.ma.us" target="_blank">
         Town of Westborough’s Economic Development Committee
       </Link>
@@ -41,13 +41,24 @@ export default () => (
       <Link href="https://communityadvocate.com" target="_blank">
         Community Advocate Newspaper
       </Link>
-      . I also to conduct projects independently and have presented full papers
-      at the{' '}
+      . I conduct projects independently and have presented a full paper and a
+      poster at the{' '}
       <Link href="https://ewh.ieee.org/conf/stem/" target="_blank">
         Integrated STEM Education Education Conference{' '}
       </Link>
       . I have also won regional, state, and national awards at multiple science
-      fairs. At school, I have helped lead the Saint John's Mock Trial team to a
+      fairs. This year, I will present my work at at the{' '}
+      <Link href="https://student.societyforscience.org/intel-isef">
+        International Science and Engineering Fair
+      </Link>
+      , and the{' '}
+      <Link href="https://www.jshs.org/national-symposium/">
+        National Junior Science and Humanities Symposium
+      </Link>
+      .
+    </P>
+    <P>
+      At school, I have helped lead the Saint John's Mock Trial team to a
       perfect preliminary tournament. I am also a member of the French Club, and
       the Be Like Brit Club.
     </P>

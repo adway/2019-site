@@ -399,7 +399,7 @@
       "resolve": "/Users/adway/dev/WebDevelopment/site",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "78297c0403b4a5d314b4155a24ed343d",
+      "version": "a9819205d86f3b0bde99e711051a070b",
       "pluginOptions": {
         "plugins": []
       },
@@ -458,7 +458,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "3c6453bb01bb53db5c0a78b79b8aa0b8",
+        "contentDigest": "0cc33e84499d57f68a73213a894c984d",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -576,12 +576,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-03-11T01:18:14.803Z",
+      "buildTime": "2019-03-31T18:26:20.627Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "2a4e2ad55aa88ea4c25b5863ba99170b",
+        "contentDigest": "cb123c6e3fe30094b1b8579838c91cdf",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -629,7 +629,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "f3ab7068856563562c6200c402cc42bd"
+    "PLUGINS_HASH": "a435017555aebf91a47c0a75741df688"
   },
   "componentDataDependencies": {
     "nodes": {},
