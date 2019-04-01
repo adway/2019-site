@@ -7,20 +7,18 @@ export const siteInfo = {
 export const projects = [
   {
     title: 'Predicting Suicidal Ideation Using Machine Learning',
-    link: 'https://www.dropbox.com/s/7765ipg6pzuq8ev/JSHSReport.docx?dl=0',
+    link:
+      'https://drive.google.com/file/d/106JZx9INd1iz56qChZFBMp6XNSyFTajr/view?usp=sharing',
+    date: 'March 2019',
     description:
-      'This project uses a decision tree algorithm to predict individuals at risk for suicidal ideation.'
+      'This project uses a decision tree classifier to predict individuals at risk for suicidal ideation.'
   },
   {
     title: 'Predicting Opioid Use Disorder (OUD) Using Machine Learning',
-    link: 'https://oud.adway.io',
-    description: 'This is the work behind the underlying algorithm to Stopioid.'
-  },
-  {
-    title: 'Stopioid',
-    link: 'https://stopioid.org',
+    date: 'March 2019',
+    link: 'https://drive.google.com/open?id=1H5csZ1fBgQ_M0_JZY1iRFf-hYUmKpG0C',
     description:
-      'Stopioid is an application build using a decision tree model to help predict and prevent opioid use disorder.'
+      'This project uses a random forest classifier to predict adults at risk for developing opioid use disorder.'
   },
   {
     title: 'The Demographic Divide in the Advanced Placement Curriculum',
