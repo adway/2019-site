@@ -32,7 +32,7 @@ export default () => (
       I conduct projects in the area of social science. I have presented my work
       at the Worcester Regional Science and Engineering Fair, the Massachusetts
       State Science and Engineering Fair, the International Science and
-      Engineerign Fair, the National Junior Science and Humanities Symposium,
+      Engineering Fair, the National Junior Science and Humanities Symposium,
       and the IEEE Integrated STEM Education Conference. I have also been
       selected as a Broadcom MASTERS semifinalist.
     </P>
