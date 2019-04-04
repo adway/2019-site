@@ -48,19 +48,21 @@ export default () => (
       </Link>
       . I have also won regional, state, and national awards at multiple science
       fairs. This year, I will present my work at at the{' '}
-      <Link href="https://student.societyforscience.org/intel-isef">
+      <Link
+        target="_blank"
+        href="https://student.societyforscience.org/intel-isef"
+      >
         International Science and Engineering Fair
       </Link>
       , and the{' '}
-      <Link href="https://www.jshs.org/national-symposium/">
+      <Link target="_blank" href="https://www.jshs.org/national-symposium/">
         National Junior Science and Humanities Symposium
       </Link>
       .
     </P>
     <P>
-      At school, I have helped lead the Saint John's Mock Trial team to a
-      perfect preliminary tournament. I am also a member of the French Club, and
-      the Be Like Brit Club.
+      At school, I am a member of the Saint John's Mock Trial team. I am also a
+      member of the French Club, and the Be Like Brit Club.
     </P>
   </Layout>
 );
