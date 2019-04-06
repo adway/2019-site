@@ -52,7 +52,7 @@ export default () => (
         target="_blank"
         href="https://student.societyforscience.org/intel-isef"
       >
-        International Science and Engineering Fair
+        Intel International Science and Engineering Fair
       </Link>
       , and the{' '}
       <Link target="_blank" href="https://www.jshs.org/national-symposium/">

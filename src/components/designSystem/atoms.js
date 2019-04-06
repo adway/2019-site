@@ -20,7 +20,7 @@ export default {
     text: '#000207',
     meta: '#747474',
     complementary: '#005bc2',
-    duke: '#001A57'
+    duke: '#00539B'
   },
   font: {
     family: {

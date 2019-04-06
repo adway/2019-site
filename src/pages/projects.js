@@ -8,15 +8,10 @@ import { projects } from '../data';
 import Serif from '../components/designSystem/Serif';
 import styled from '@emotion/styled';
 
-import {
-  Atoms,
-  PlainList,
-  PlainLink
-} from '../components/designSystem/designSystem';
+import { PlainList, PlainLink } from '../components/designSystem/designSystem';
 import Tab from '../components/designSystem/Tab';
 
 const Description = styled(Serif)`
-  color: ${Atoms.colors.duke};
   font-size: 0.9em;
 `;
 

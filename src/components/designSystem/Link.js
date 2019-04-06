@@ -11,7 +11,7 @@ const styles = underline => css`
   text-decoration: ${underline ? 'underline' : 'none'};
   &:hover,
   &:focus {
-    color: ${Atoms.colors.site};
+    color: ${Atoms.colors.duke};
   }
 `;
 
