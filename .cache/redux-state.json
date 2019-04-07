@@ -570,18 +570,16 @@
       "siteMetadata": {
         "title": "Adway S. Wadekar",
         "siteUrl": "https://adway.io",
-        "description": "Adway Wadekar's website"
+        "description": "Adway Wadekar's Website"
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
-      "buildTime": "2019-04-06T16:26:40.315Z",
+      "buildTime": "2019-04-07T01:24:56.510Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "73f344cb085dbf2d10387a7d1b3aaed1",
+        "contentDigest": "331adac141dfd2e1106ad240ef9d92d9",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
