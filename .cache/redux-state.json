@@ -6,6 +6,7 @@
       "path": "/dev-404-page/",
       "component": "/Users/adway/dev/WebDevelopment/site/.cache/dev-404-page.js",
       "componentChunkName": "component---cache-dev-404-page-js",
+      "isCreatedByStatefulCreatePages": true,
       "context": {},
       "pluginCreator___NODE": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
       "pluginCreatorId": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
@@ -15,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "b7bdbd1dbeb7caf221dd314fbe1091c6",
+        "contentDigest": "31f02530660b871375e97884a9a75ac9",
         "description": "d48d1c52-fe48-53cb-8f08-aa4b47dde5a5",
         "owner": "internal-data-bridge"
       }
@@ -161,41 +162,6 @@
         "owner": "internal-data-bridge"
       }
     },
-    "84dad27f-1d44-51fc-ac56-4db2e5222995": {
-      "resolve": "/Users/adway/dev/WebDevelopment/site/node_modules/gatsby/dist/internal-plugins/query-runner",
-      "id": "84dad27f-1d44-51fc-ac56-4db2e5222995",
-      "name": "query-runner",
-      "version": "1.0.0",
-      "pluginOptions": {
-        "plugins": []
-      },
-      "nodeAPIs": [
-        "onCreatePage"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [],
-      "pluginFilepath": "/Users/adway/dev/WebDevelopment/site/node_modules/gatsby/dist/internal-plugins/query-runner",
-      "packageJson": {
-        "name": "query-runner",
-        "description": "Internal plugin for running queries",
-        "version": "1.0.0",
-        "main": "index.js",
-        "author": "",
-        "license": "MIT",
-        "dependencies": [],
-        "devDependencies": [],
-        "peerDependencies": [],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": null,
-      "children": [],
-      "internal": {
-        "contentDigest": "af35ba2d6159a2d0d80e074b5fbe4ee4",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "6f4b2fa9-66b5-5205-a03f-140005a2cfe5": {
       "resolve": "/Users/adway/dev/WebDevelopment/site/node_modules/gatsby/dist/internal-plugins/webpack-theme-component-shadowing",
       "id": "6f4b2fa9-66b5-5205-a03f-140005a2cfe5",
@@ -320,7 +286,7 @@
       "resolve": "/Users/adway/dev/WebDevelopment/site/node_modules/gatsby-plugin-emotion",
       "id": "b1674f69-3dee-5cf8-8a38-a16667a563b8",
       "name": "gatsby-plugin-emotion",
-      "version": "4.0.4",
+      "version": "4.0.6",
       "pluginOptions": {
         "plugins": []
       },
@@ -333,7 +299,7 @@
       "packageJson": {
         "name": "gatsby-plugin-emotion",
         "description": "Gatsby plugin to add support for Emotion",
-        "version": "4.0.4",
+        "version": "4.0.6",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -367,7 +333,7 @@
           },
           {
             "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
+            "version": "^0.1.4"
           },
           {
             "name": "cross-env",
@@ -390,7 +356,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "008faaef0d5145142e1f54300b99ddfe",
+        "contentDigest": "fe0ab330a01e0669132cbed208589421",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -399,7 +365,7 @@
       "resolve": "/Users/adway/dev/WebDevelopment/site",
       "id": "7374ebf2-d961-52ee-92a2-c25e7cb387a9",
       "name": "default-site-plugin",
-      "version": "a9819205d86f3b0bde99e711051a070b",
+      "version": "f50f7c29ff17158046e5dd64a2c3a589",
       "pluginOptions": {
         "plugins": []
       },
@@ -423,11 +389,11 @@
           },
           {
             "name": "gatsby",
-            "version": "^2.0.118"
+            "version": "^2.3.14"
           },
           {
             "name": "gatsby-plugin-emotion",
-            "version": "^4.0.4"
+            "version": "^4.0.6"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -458,7 +424,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "0cc33e84499d57f68a73213a894c984d",
+        "contentDigest": "43fb3626b696ea7defed0737743927f2",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -467,7 +433,7 @@
       "resolve": "/Users/adway/dev/WebDevelopment/site/node_modules/gatsby-plugin-page-creator",
       "id": "154dd737-8a53-575a-8a2b-f7c8aef18828",
       "name": "gatsby-plugin-page-creator",
-      "version": "2.0.6",
+      "version": "2.0.12",
       "pluginOptions": {
         "plugins": [],
         "path": "/Users/adway/dev/WebDevelopment/site/src/pages",
@@ -482,7 +448,7 @@
       "packageJson": {
         "name": "gatsby-plugin-page-creator",
         "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
-        "version": "2.0.6",
+        "version": "2.0.12",
         "main": "index.js",
         "keywords": [
           "gatsby",
@@ -504,7 +470,7 @@
           },
           {
             "name": "chokidar",
-            "version": "^1.7.0"
+            "version": "2.1.2"
           },
           {
             "name": "fs-exists-cached",
@@ -542,7 +508,7 @@
           },
           {
             "name": "babel-preset-gatsby-package",
-            "version": "^0.1.3"
+            "version": "^0.1.4"
           },
           {
             "name": "cross-env",
@@ -561,7 +527,7 @@
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "75dff53e35f366ee0ef652456d086294",
+        "contentDigest": "80988a8f375e35bc1fd6df33d6461d01",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -572,14 +538,16 @@
         "siteUrl": "https://adway.io",
         "description": "Adway Wadekar's Website"
       },
-      "port": "8000",
+      "port": 8000,
       "host": "localhost",
-      "buildTime": "2019-04-07T01:24:56.510Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2019-04-20T18:48:15.013Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "331adac141dfd2e1106ad240ef9d92d9",
+        "contentDigest": "46544f54ed3599dcbcd0b616c7080614",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -590,6 +558,7 @@
       "path": "/",
       "component": "/Users/adway/dev/WebDevelopment/site/src/pages/index.js",
       "componentChunkName": "component---src-pages-index-js",
+      "isCreatedByStatefulCreatePages": true,
       "context": {},
       "pluginCreator___NODE": "154dd737-8a53-575a-8a2b-f7c8aef18828",
       "pluginCreatorId": "154dd737-8a53-575a-8a2b-f7c8aef18828",
@@ -599,7 +568,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "09d5fa018ad73e7572366e95efcd7766",
+        "contentDigest": "c779a4c8032b975de9b40ee7681b4a38",
         "description": "154dd737-8a53-575a-8a2b-f7c8aef18828",
         "owner": "internal-data-bridge"
       }
@@ -610,6 +579,7 @@
       "path": "/projects/",
       "component": "/Users/adway/dev/WebDevelopment/site/src/pages/projects.js",
       "componentChunkName": "component---src-pages-projects-js",
+      "isCreatedByStatefulCreatePages": true,
       "context": {},
       "pluginCreator___NODE": "154dd737-8a53-575a-8a2b-f7c8aef18828",
       "pluginCreatorId": "154dd737-8a53-575a-8a2b-f7c8aef18828",
@@ -619,7 +589,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ecabe2c900b7ad157d0caae635b411c7",
+        "contentDigest": "84908a0641e5c913d247be8861378ed8",
         "description": "154dd737-8a53-575a-8a2b-f7c8aef18828",
         "owner": "internal-data-bridge"
       }
@@ -627,29 +597,41 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "a435017555aebf91a47c0a75741df688"
+    "PLUGINS_HASH": "c2f6436d03ec571fd8ecd3afef36e86d"
   },
   "componentDataDependencies": {
     "nodes": {},
     "connections": {}
   },
   "jsonDataPaths": {
-    "dev-404-page-5f9": "920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",
-    "index": "173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E",
-    "projects-9e9": "545/path---projects-9-e-9-957-NZuapzHg3X9TaN1iIixfv1W23E"
+    "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "index": "140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "projects-9e9": "175/path---projects-9-e-9-957-0SUcWyAf8ecbYDsMhQkEfPzV8"
   },
   "components": {
     "/Users/adway/dev/WebDevelopment/site/.cache/dev-404-page.js": {
       "query": "",
-      "componentPath": "/Users/adway/dev/WebDevelopment/site/.cache/dev-404-page.js"
+      "componentPath": "/Users/adway/dev/WebDevelopment/site/.cache/dev-404-page.js",
+      "pages": [
+        "/dev-404-page/"
+      ],
+      "isInBootstrap": true
     },
     "/Users/adway/dev/WebDevelopment/site/src/pages/index.js": {
       "query": "",
-      "componentPath": "/Users/adway/dev/WebDevelopment/site/src/pages/index.js"
+      "componentPath": "/Users/adway/dev/WebDevelopment/site/src/pages/index.js",
+      "pages": [
+        "/"
+      ],
+      "isInBootstrap": true
     },
     "/Users/adway/dev/WebDevelopment/site/src/pages/projects.js": {
       "query": "",
-      "componentPath": "/Users/adway/dev/WebDevelopment/site/src/pages/projects.js"
+      "componentPath": "/Users/adway/dev/WebDevelopment/site/src/pages/projects.js",
+      "pages": [
+        "/projects/"
+      ],
+      "isInBootstrap": true
     }
   },
   "staticQueryComponents": {}
