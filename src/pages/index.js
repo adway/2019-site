@@ -14,17 +14,16 @@ export default () => (
       <Link href="http://www.stjohnshigh.org/" target="_blank">
         Saint John’s High School
       </Link>{' '}
-      in Shrewsbury, Massachusetts. I am interested in studying economics and
-      would like to pursue an academic career in quantitative public policy.
-      Feel free to view my résumé{' '}
+      in Shrewsbury, Massachusetts. I am interested in studying the social
+      sciences using a quantitative approach. Feel free to view my résumé{' '}
       <Link href="/Resume.pdf" target="_blank">
         here
       </Link>
       .
     </P>
     <P>
-      I enjoy learning, reading the news and taking pictures with my Canon Rebel
-      T5. I'm working on{' '}
+      I enjoy learning about various topics, reading the news and taking
+      pictures with my Canon Rebel T5. I'm working on{' '}
       <Link href="https://stopioid.org" target="_blank">
         Stopioid
       </Link>
