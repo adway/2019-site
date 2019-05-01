@@ -10,7 +10,7 @@ export default () => (
     <Tab page="About" />
     <H1>About</H1>
     <P>
-      Hi! I’m Adway. I’m currently a sophomore at{' '}
+      Hi, I’m Adway! I’m currently a sophomore at{' '}
       <Link href="http://www.stjohnshigh.org/" target="_blank">
         Saint John’s High School
       </Link>{' '}
@@ -47,8 +47,9 @@ export default () => (
       <Link href="https://ewh.ieee.org/conf/stem/" target="_blank">
         Integrated STEM Education Education Conference{' '}
       </Link>
-      . I have also won regional, state, and national awards at multiple science
-      fairs. I am grateful that this year, I will present my work at at both the{' '}
+      . I am truly fortunate to have won regional, state, and national awards at
+      multiple science fairs. I am grateful that this year, I will present my
+      work at at both the{' '}
       <Link
         target="_blank"
         href="https://student.societyforscience.org/intel-isef"
@@ -58,6 +59,10 @@ export default () => (
       , and the{' '}
       <Link target="_blank" href="https://www.jshs.org/national-symposium/">
         National Junior Science and Humanities Symposium
+      </Link>
+      . I will also present a fast abstract (2 page paper) at{' '}
+      <Link target="_blank" href="https://ieeecompsac.computer.org/">
+        IEEE COMPSAC
       </Link>
       .
     </P>
