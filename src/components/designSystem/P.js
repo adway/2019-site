@@ -4,6 +4,6 @@ import { Atoms } from './designSystem';
 
 export default styled('p')`
   text-indent: ${Atoms.spacing.medium};
-  hyphens: auto;
-  // text-align: justify;
+  hyphens: none;
+  text-align: justify;
 `;
