@@ -31,7 +31,7 @@ export default {
       small: `${scales.small}rem`,
       regular: `${scales.medium}rem`,
       h1: `1.333rem`,
-      h2: `1.111rem`
+      h2: `1.203rem`
     }
   },
   scales,

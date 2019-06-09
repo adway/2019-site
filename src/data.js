@@ -37,3 +37,14 @@ export const projects = [
       'This project analzes and compares, on an average, what life events make people particularly happy. It also compares the similarity of life events using the Hellinger Distance.'
   }
 ];
+
+export const failures = [
+  {
+    year: 2019,
+    fails: [
+      {
+        title: 'Rejcted'
+      }
+    ]
+  }
+];

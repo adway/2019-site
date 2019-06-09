@@ -542,12 +542,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-05-09T12:47:10.409Z",
+      "buildTime": "2019-06-09T18:00:57.282Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "4cd2275952182d7d493f06cc984e7953",
+        "contentDigest": "6dc64e0a84b53b3dd6a0ef2c585d7037",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -606,17 +606,11 @@
   "jsonDataPaths": {
     "dev-404-page-5f9": "386/path---dev-404-page-5-f-9-fab-0SUcWyAf8ecbYDsMhQkEfPzV8",
     "index": "140/path---index-6a9-0SUcWyAf8ecbYDsMhQkEfPzV8",
-    "projects-9e9": "175/path---projects-9-e-9-957-0SUcWyAf8ecbYDsMhQkEfPzV8"
+    "projects-9e9": "175/path---projects-9-e-9-957-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "failure-bb7": "353/path---failure-bb-7-b86-0SUcWyAf8ecbYDsMhQkEfPzV8",
+    "fail-56a": "304/path---fail-56-a-5d9-0SUcWyAf8ecbYDsMhQkEfPzV8"
   },
   "components": {
-    "/Users/adway/dev/WebDevelopment/site/.cache/dev-404-page.js": {
-      "query": "",
-      "componentPath": "/Users/adway/dev/WebDevelopment/site/.cache/dev-404-page.js",
-      "pages": [
-        "/dev-404-page/"
-      ],
-      "isInBootstrap": true
-    },
     "/Users/adway/dev/WebDevelopment/site/src/pages/index.js": {
       "query": "",
       "componentPath": "/Users/adway/dev/WebDevelopment/site/src/pages/index.js",
@@ -630,6 +624,14 @@
       "componentPath": "/Users/adway/dev/WebDevelopment/site/src/pages/projects.js",
       "pages": [
         "/projects/"
+      ],
+      "isInBootstrap": true
+    },
+    "/Users/adway/dev/WebDevelopment/site/.cache/dev-404-page.js": {
+      "query": "",
+      "componentPath": "/Users/adway/dev/WebDevelopment/site/.cache/dev-404-page.js",
+      "pages": [
+        "/dev-404-page/"
       ],
       "isInBootstrap": true
     }

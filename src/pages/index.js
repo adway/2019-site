@@ -47,8 +47,8 @@ export default () => (
         Integrated STEM Education Education Conference{' '}
       </Link>
       . I am truly fortunate to have won regional, state, and national awards at
-      multiple science fairs. I am grateful that this year, I will present my
-      work at at both the{' '}
+      multiple science fairs. I am grateful that this year, I presented my work
+      at at both the{' '}
       <Link
         target="_blank"
         href="https://student.societyforscience.org/intel-isef"

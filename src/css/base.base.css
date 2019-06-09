@@ -12,8 +12,8 @@ html {
   display: flex;
   font-feature-settings: 'calt', 'liga', 'hist', 'onum', 'pnum';
   font: 100%/1.6 var(--serif);
-  hyphens: auto;
   min-height: 100%;
+  text-align: justify;
 }
 
 .wf-loading:root {
@@ -25,7 +25,7 @@ html {
   line-height: 1.55;
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   html {
     font-size: 105%;
   }
@@ -35,4 +35,4 @@ html {
   html {
     font-size: 87.5%;
   }
-}
+} */
