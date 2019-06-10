@@ -26,7 +26,7 @@ export default () => (
     <P>
       I conduct projects in the area of social science. I have presented my work
       at the Worcester Regional Science and Engineering Fair, the Massachusetts
-      State Science and Engineering Fair, the International Science and
+      State Science and Engineering Fair, the Intel International Science and
       Engineering Fair, the National Junior Science and Humanities Symposium,
       and the IEEE Integrated STEM Education Conference. I have also been
       selected as a Broadcom MASTERS semifinalist.

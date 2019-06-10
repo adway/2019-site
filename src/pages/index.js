@@ -10,7 +10,7 @@ export default () => (
     <Tab page="About" />
     <H1>About</H1>
     <P>
-      Hi, I’m Adway! I’m currently a sophomore at{' '}
+      Hi, I’m Adway! I’m a rising junior at{' '}
       <Link href="http://www.stjohnshigh.org/" target="_blank">
         Saint John’s High School
       </Link>{' '}
@@ -23,12 +23,7 @@ export default () => (
     </P>
     <P>
       I enjoy learning about various topics, reading the news and taking
-      pictures with my Canon Rebel T5. I'm working on{' '}
-      <Link href="https://stopioid.org" target="_blank">
-        Stopioid
-      </Link>
-      , which is an app that utilizes a random forest alogrithm to predict and
-      prevent opioid use disorder. I am an intern at the{' '}
+      pictures with my Canon Rebel T5. I am an intern at the{' '}
       <Link href="http://edc.town.westborough.ma.us" target="_blank">
         Town of Westborough’s Economic Development Committee
       </Link>
@@ -44,7 +39,7 @@ export default () => (
       . I conduct research projects independently and have presented a full
       paper and a poster at the{' '}
       <Link href="https://ewh.ieee.org/conf/stem/" target="_blank">
-        Integrated STEM Education Education Conference{' '}
+        IEEE Integrated STEM Education Education Conference{' '}
       </Link>
       . I am truly fortunate to have won regional, state, and national awards at
       multiple science fairs. I am grateful that this year, I presented my work

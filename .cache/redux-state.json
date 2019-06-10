@@ -542,12 +542,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2019-06-09T18:00:57.282Z",
+      "buildTime": "2019-06-10T18:58:30.862Z",
       "id": "Site",
       "parent": null,
       "children": [],
       "internal": {
-        "contentDigest": "6dc64e0a84b53b3dd6a0ef2c585d7037",
+        "contentDigest": "c1701827704f6e523e6ba891476f42b9",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
