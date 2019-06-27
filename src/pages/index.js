@@ -32,6 +32,16 @@ export default () => (
       relations with businesses in the Town of Westborough.
     </P>
     <P>
+      I am the 2019-2020 Photographer in Residence for the Town of Westborough.
+      I document Westborough's history as it happens through photography.
+      Specifically, I try to portray daily life through the eyes of young
+      children. You can read my vision statement for this project{' '}
+      <Link href="/Vision.pdf" target="_blank">
+        here
+      </Link>
+      .
+    </P>
+    <P>
       I am also a contributing writer and photographer for the{' '}
       <Link href="https://communityadvocate.com" target="_blank">
         Community Advocate Newspaper
