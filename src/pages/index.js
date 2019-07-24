@@ -16,7 +16,7 @@ export default () => (
       </Link>{' '}
       in Shrewsbury, Massachusetts. I am interested in studying the social
       sciences using a quantitative approach. Feel free to view my résumé{' '}
-      <Link href="https://www.linkedin.com/in/adwaywadekar/" target="_blank">
+      <Link href="resume.pdf" target="_blank">
         here
       </Link>
       .
