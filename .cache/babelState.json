@@ -1,68 +1,68 @@
 {
   "stages": {
     "develop": {
-      "plugins": [],
-      "presets": [
+      "plugins": [
         {
-          "name": "@emotion/babel-preset-css-prop",
+          "name": "babel-plugin-styled-components",
+          "stage": "develop",
           "options": {
-            "sourceMap": true,
-            "autoLabel": true,
-            "plugins": []
+            "plugins": [],
+            "ssr": false
           }
         }
       ],
+      "presets": [],
       "options": {
         "cacheDirectory": true,
         "sourceType": "unambiguous"
       }
     },
     "develop-html": {
-      "plugins": [],
-      "presets": [
+      "plugins": [
         {
-          "name": "@emotion/babel-preset-css-prop",
+          "name": "babel-plugin-styled-components",
+          "stage": "develop-html",
           "options": {
-            "sourceMap": true,
-            "autoLabel": true,
-            "plugins": []
+            "plugins": [],
+            "ssr": false
           }
         }
       ],
+      "presets": [],
       "options": {
         "cacheDirectory": true,
         "sourceType": "unambiguous"
       }
     },
     "build-html": {
-      "plugins": [],
-      "presets": [
+      "plugins": [
         {
-          "name": "@emotion/babel-preset-css-prop",
+          "name": "babel-plugin-styled-components",
+          "stage": "build-html",
           "options": {
-            "sourceMap": true,
-            "autoLabel": true,
-            "plugins": []
+            "plugins": [],
+            "ssr": true
           }
         }
       ],
+      "presets": [],
       "options": {
         "cacheDirectory": true,
         "sourceType": "unambiguous"
       }
     },
     "build-javascript": {
-      "plugins": [],
-      "presets": [
+      "plugins": [
         {
-          "name": "@emotion/babel-preset-css-prop",
+          "name": "babel-plugin-styled-components",
+          "stage": "build-javascript",
           "options": {
-            "sourceMap": true,
-            "autoLabel": true,
-            "plugins": []
+            "plugins": [],
+            "ssr": true
           }
         }
       ],
+      "presets": [],
       "options": {
         "cacheDirectory": true,
         "sourceType": "unambiguous"

@@ -1,40 +1,41 @@
-import React from "react"
-import styled from "styled-components"
-import theme from "../theme/config"
-import Layout from "../components/Layout"
-import { Container } from "../components/Container"
+import React from 'react';
+import styled from 'styled-components';
+import theme from '../theme/config';
+import Layout from '../components/Layout';
+import { Container } from '../components/Container';
 
-import { Heading, Image, Text, Box } from "rebass"
+import { Heading, Image, Text, Box } from 'rebass';
 
 const Avatar = props => (
   <Image width={125} height={125} borderRadius={9999} {...props} />
-)
+);
 
 const Name = styled(Heading)`
   color: ${theme.colors.uchicago};
-  font-family: "Koho";
+  font-family: 'Koho';
   font-size: ${theme.fontSizes[5]}px;
-`
+`;
 
 const Location = styled(Text)`
   color: ${theme.colors.silver};
   font-weight: 500;
   font-size: ${theme.fontSizes[2]}px;
-`
+`;
 
 const P = styled(Text).attrs({ mb: 3 })`
   color: ${theme.colors.black};
   font-weight: 500;
-  font-size: ${theme.fontSizes[3]}px;
+  font-size: ${theme.fontSizes[2]}px;
+
   text-align: justify;
   line-height: 2;
-`
+`;
 
 const Link = styled.a`
   color: ${theme.colors.link};
   text-decoration: none;
   font-weight: 700;
-`
+`;
 
 const Footer = styled(Box)`
   font-size: ${theme.fontSizes[0]}px;
@@ -42,7 +43,7 @@ const Footer = styled(Box)`
   text-align: center;
   color: #000;
   font-weight: 700;
-`
+`;
 
 const IndexPage = () => (
   <Layout>
@@ -51,10 +52,10 @@ const IndexPage = () => (
       <Name mt={3}>Adway Wadekar</Name>
       <Location>📍Boston, MA</Location>
       <P mt={3}>
-        Hi, I’m Adway! I’m a rising junior at{" "}
+        Hi, I’m Adway! I’m a rising junior at{' '}
         <Link href="http://www.stjohnshigh.org" target="_blank">
           Saint John’s High School
-        </Link>{" "}
+        </Link>{' '}
         in Shrewsbury, Massachusetts. I am interested in studying the social
         sciences using a quantitative approach.
       </P>
@@ -70,8 +71,8 @@ const IndexPage = () => (
         I am the 2019-2020 Photographer in Residence for the Town of
         Westborough. I document Westborough's history as it happens through
         photography. Specifically, I try to portray daily life through the eyes
-        of young children. You can read my vision statement for this project{" "}
-        <Link target="_blank" href={require("../assets/Vision.pdf")}>
+        of young children. You can read my vision statement for this project{' '}
+        <Link target="_blank" href={require('../assets/Vision.pdf')}>
           here
         </Link>
         .
@@ -94,6 +95,6 @@ const IndexPage = () => (
       <Footer>&copy; 2019 Adway S. Wadekar</Footer>
     </Container>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;

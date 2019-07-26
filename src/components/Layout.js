@@ -1,7 +1,7 @@
-import React from "react"
-import Helmet from "react-helmet"
-import ThemeProvider from "../theme"
-import theme from "../theme/config"
+import React from 'react';
+import Helmet from 'react-helmet';
+import ThemeProvider from '../theme';
+import theme from '../theme/config';
 
 export default ({ children }) => (
   <ThemeProvider>
@@ -13,16 +13,21 @@ export default ({ children }) => (
         rel="stylesheet"
       />
       <link
-        href="https://fonts.googleapis.com/css?family=KoHo:400,500,700&display=swap"
+        href="https://fonts.googleapis.com/css?family=KoHo:400,500,600,700&display=swap"
         rel="stylesheet"
       />
       <link
+        href="https://fonts.googleapis.com/css?family=Muli&display=swap"
+        rel="stylesheet"
+      />
+
+      <link
         rel="icon"
         type="image/png"
-        href={require("../assets/favicon.ico")}
+        href={require('../assets/favicon.ico')}
         sizes="16x16"
       />
     </Helmet>
     {children}
   </ThemeProvider>
-)
+);
