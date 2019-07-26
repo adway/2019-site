@@ -25,7 +25,7 @@ const Location = styled(Text)`
 const P = styled(Text).attrs({ mb: 3 })`
   color: ${theme.colors.black};
   font-weight: 500;
-  font-size: ${theme.fontSizes[2]}px;
+  font-size: ${theme.fontSizes[3]}px;
 
   text-align: justify;
   line-height: 2;
