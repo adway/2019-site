@@ -1,15 +1,15 @@
-const path = require('path');
-
 module.exports = {
   siteMetadata: {
-    title: `Adway S. Wadekar`,
-    siteUrl: `https://adway.io`,
-    description: `Adway Wadekar's Website`
+    title: `Adway's Site`,
+    description: `This is Adway's home on the web!`,
+    author: `Adway Wadekar`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    {
-      resolve: `gatsby-plugin-emotion`
-    }
-  ]
-};
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-styled-components`,
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
+    // `gatsby-plugin-offline`,
+  ],
+}

@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{142:function(e){e.exports={pages:[{componentChunkName:"component---src-pages-index-js",jsonName:"index",path:"/"},{componentChunkName:"component---src-pages-projects-js",jsonName:"projects-9e9",path:"/projects/"}],dataPaths:{"dev-404-page-5f9":"920/path---dev-404-page-5-f-9-fab-NZuapzHg3X9TaN1iIixfv1W23E",index:"173/path---index-6a9-NZuapzHg3X9TaN1iIixfv1W23E","projects-9e9":"545/path---projects-9-e-9-957-NZuapzHg3X9TaN1iIixfv1W23E"}}}}]);
-//# sourceMappingURL=pages-manifest-9427aa2f6eb718ed22bd.js.map
