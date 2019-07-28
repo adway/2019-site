@@ -3,8 +3,11 @@ import styled from 'styled-components';
 import theme from '../theme/config';
 import Layout from '../components/Layout';
 import { Container } from '../components/Container';
+import Icon from '@hackclub/icons';
 
-import { Heading, Image, Text, Box } from 'rebass';
+import { Heading, Image, Text, Box, Flex } from 'rebass';
+
+import { socials } from '../data.json';
 
 const Avatar = props => (
   <Image width={125} height={125} borderRadius={9999} {...props} />
@@ -22,12 +25,25 @@ const Location = styled(Text)`
   font-size: ${theme.fontSizes[2]}px;
 `;
 
+const Social = ({ href, service, ...props }) => (
+  <Box
+    as="a"
+    target="_blank"
+    rel="noopener"
+    href={href}
+    mr={3}
+    color={theme.colors.uchicago}
+    aria-label={service}
+    children={<Icon glyph={service} size={32} />}
+    {...props}
+  />
+);
+
 const P = styled(Text).attrs({ mb: 3 })`
   color: ${theme.colors.black};
   font-weight: 500;
   font-size: ${theme.fontSizes[3]}px;
 
-  text-align: justify;
   line-height: 2;
 `;
 
@@ -51,6 +67,16 @@ const IndexPage = () => (
       <Avatar src="https://pbs.twimg.com/profile_images/1134608799375994880/0IByf_yv_400x400.jpg" />
       <Name mt={3}>Adway Wadekar</Name>
       <Location>📍Boston, MA</Location>
+      <Flex flexWrap="wrap" justifyContent={['flex-start']} mt={[4]}>
+        {Object.entries(socials).map(([social, username]) => (
+          <Social
+            key={social}
+            service={social}
+            href={`https://${social}.com/${username}`}
+          />
+        ))}
+        <Social key="Email" service="email" href="mailto:adway@adway.io" />
+      </Flex>
       <P mt={3}>
         Hi, I’m Adway! I’m a rising junior at{' '}
         <Link href="http://www.stjohnshigh.org" target="_blank">
