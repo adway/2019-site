@@ -2,6 +2,8 @@ import React from 'react';
 import Helmet from 'react-helmet';
 import ThemeProvider from '../theme';
 import theme from '../theme/config';
+import Header from './Header';
+import { Container } from './Container';
 
 export default ({ children }) => (
   <ThemeProvider>
@@ -28,6 +30,10 @@ export default ({ children }) => (
         sizes="16x16"
       />
     </Helmet>
-    {children}
+
+    <Container>
+      <Header />
+      {children}
+    </Container>
   </ThemeProvider>
 );
