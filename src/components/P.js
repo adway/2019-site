@@ -7,9 +7,10 @@ const P = styled(Text).attrs({ mb: 3 })`
   font-weight: 500;
   font-size: ${theme.fontSizes[3]}px;
   text-align: justify;
-  ${theme.mediaQueries.md} {
-    text-align: left;
-  }
+  hyphens: auto;
+  // ${theme.mediaQueries.md} {
+  //   text-align: left;
+  // }
   line-height: 2;
 `;
 
