@@ -6,7 +6,10 @@ const P = styled(Text).attrs({ mb: 3 })`
   color: ${theme.colors.black};
   font-weight: 500;
   font-size: ${theme.fontSizes[3]}px;
-
+  text-align: justify;
+  ${theme.mediaQueries.md} {
+    text-align: left;
+  }
   line-height: 2;
 `;
 
