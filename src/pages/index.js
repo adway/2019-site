@@ -4,28 +4,8 @@ import theme from '../theme/config';
 import Layout from '../components/Layout';
 
 import { Text, Box } from 'rebass';
-
-const P = styled(Text).attrs({ mb: 3 })`
-  color: ${theme.colors.black};
-  font-weight: 500;
-  font-size: ${theme.fontSizes[3]}px;
-
-  line-height: 2;
-`;
-
-const Link = styled.a`
-  color: ${theme.colors.link};
-  text-decoration: none;
-  font-weight: 700;
-`;
-
-const Footer = styled(Box)`
-  font-size: ${theme.fontSizes[0]}px;
-  vertical-align: baseline;
-  text-align: center;
-  color: #000;
-  font-weight: 700;
-`;
+import { Link } from '../components/Link';
+import P from '../components/P';
 
 const IndexPage = () => (
   <Layout>
@@ -70,7 +50,6 @@ const IndexPage = () => (
       At school, I am a member of the Saint John's Mock Trial team. I am also a
       member of the French Club, and the Be Like Brit Club.
     </P>
-    <Footer>&copy; 2019 Adway S. Wadekar</Footer>
   </Layout>
 );
 

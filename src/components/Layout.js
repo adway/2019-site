@@ -4,6 +4,16 @@ import ThemeProvider from '../theme';
 import theme from '../theme/config';
 import Header from './Header';
 import { Container } from './Container';
+import styled from 'styled-components';
+import { Box } from 'rebass';
+
+const Footer = styled(Box)`
+  font-size: ${theme.fontSizes[0]}px;
+  vertical-align: baseline;
+  text-align: center;
+  color: #000;
+  font-weight: 700;
+`;
 
 export default ({ children }) => (
   <ThemeProvider>
@@ -35,5 +45,6 @@ export default ({ children }) => (
       <Header />
       {children}
     </Container>
+    <Footer>&copy; 2019 Adway S. Wadekar</Footer>
   </ThemeProvider>
 );

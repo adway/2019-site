@@ -5,5 +5,34 @@
     "twitter": "adwaysw",
     "instagram": "adwaywadekar",
     "github": "adway"
-  }
+  },
+  "projects": [
+    {
+      "name": "Predicting Opioid Use Disorder Using a Random Forest",
+      "description": "This project uses a random forest classifier to predict adults at risk for developing opioid use disorder.",
+      "papers": [
+        {
+          "event": "Intel ISEF",
+          "link": "drive.google.com/open?id=1H5csZ1fBgQ_M0_JZY1iRFf-hYUmKpG0C",
+          "location": "Phoenix, AZ"
+        },
+        {
+          "event": "IEEE COMPSAC",
+          "link": "ieeexplore.ieee.org/abstract/document/8753945",
+          "location": "Milwaukee, WI"
+        }
+      ]
+    },
+    {
+      "name": "Predicting and Understanding Suicidal Ideation",
+      "description": "This project uses a decision tree classifier to predict individuals at risk for suicidal ideation.",
+      "papers": [
+        {
+          "event": "National JSHS",
+          "link": "drive.google.com/open?id=106JZx9INd1iz56qChZFBMp6XNSyFTajr",
+          "location": "Albuquerque, NM"
+        }
+      ]
+    }
+  ]
 }
