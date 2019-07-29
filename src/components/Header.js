@@ -8,6 +8,7 @@ import Icon from '@hackclub/icons';
 import theme from '../theme/config';
 
 import { Link } from './Link';
+import Emoji from './Emoji';
 
 const Avatar = props => (
   <Image width={125} height={125} borderRadius={9999} {...props} />
@@ -48,7 +49,10 @@ export default () => (
   <div>
     <Avatar src="https://pbs.twimg.com/profile_images/1134608799375994880/0IByf_yv_400x400.jpg" />
     <Name mt={3}>Adway Wadekar</Name>
-    <Location>📍Boston, MA</Location>
+    <Location>
+      <Emoji label="Location Emoji" emoji="📍" />
+      Boston, MA
+    </Location>
     <Flex flexWrap="wrap" justifyContent={['flex-start']} mt={[3]}>
       {Object.entries(socials).map(([social, username]) => (
         <Social

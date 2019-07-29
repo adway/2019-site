@@ -1,9 +1,6 @@
 import React from 'react';
-import styled from 'styled-components';
-import theme from '../theme/config';
 import Layout from '../components/Layout';
 
-import { Text, Box } from 'rebass';
 import { Link } from '../components/Link';
 import P from '../components/P';
 
