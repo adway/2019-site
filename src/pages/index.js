@@ -3,9 +3,15 @@ import Layout from '../components/Layout';
 
 import { Link } from '../components/Link';
 import P from '../components/P';
+import SectionTitle from '../components/SectionTitle';
+import Emoji from '../components/Emoji';
 
 const IndexPage = () => (
   <Layout>
+    <SectionTitle>
+      {' '}
+      <Emoji label="Work" emoji="📝" /> About Me
+    </SectionTitle>
     <P mt={3}>
       Hi, I’m Adway! I’m a rising junior at{' '}
       <Link href="http://www.stjohnshigh.org" target="_blank">

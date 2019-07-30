@@ -7,6 +7,8 @@ import P from '../components/P';
 import { Text, Box } from 'rebass';
 import { Link } from '../components/Link';
 import { projects } from '../data.json';
+import SectionTitle from '../components/SectionTitle';
+import Emoji from '../components/Emoji';
 
 const Title = styled(Text)`
   color: ${theme.colors.black};
@@ -23,6 +25,10 @@ const Desc = styled(Text)`
 
 const Projects = () => (
   <Layout>
+    <SectionTitle>
+      {' '}
+      <Emoji label="Rocket" emoji="🚀" /> My Work
+    </SectionTitle>
     <P mt={3}>
       I conduct projects in the area of social science. I have presented my work
       at the Worcester Regional Science and Engineering Fair, the Massachusetts
