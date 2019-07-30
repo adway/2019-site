@@ -54,14 +54,11 @@ export default () => (
       Boston, MA
     </Location>
     <Flex flexWrap="wrap" justifyContent={['flex-start']} mt={[3]}>
-      {Object.entries(socials).map(([social, username]) => (
-        <Social
-          key={social}
-          service={social}
-          href={`https://${social}.com/${username}`}
-        />
+      {Object.entries(socials).map(([social, link]) => (
+        <Social key={social} service={social} href={`https://${link}`} />
       ))}
       <Social key="Email" service="email" href="mailto:adway@adway.io" />
+      <Social key="Resume" service="attachment" href="/resume.pdf" />
     </Flex>
     <Flex flexWrap="wrap" justifyContent={['flex-start']} mt={3} mb={3}>
       {Object.entries(pages).map(([page, url]) => (
