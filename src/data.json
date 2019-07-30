@@ -33,6 +33,22 @@
           "location": "Albuquerque, NM"
         }
       ]
+    },
+    {
+      "name": "The  Demographic Divide in Advanced Placement Subjects",
+      "description": "This project evaluates how race, gender, and age are related to participation and performance in the AP curriculum.",
+      "papers": [
+        {
+          "event": "IEEE Integrated STEM Education Conference",
+          "link": "ieeexplore.ieee.org/abstract/document/8340512",
+          "location": "Princeton, NJ"
+        },
+        {
+          "event": "Massacusetts Science and Engineering Fair",
+          "link": "drive.google.com/file/d/184yBE_DrsZ-8DNOmFFeZWrrMREQy_HbG/view?usp=sharing",
+          "location": "Cambridge, MA"
+        }
+      ]
     }
   ]
 }
