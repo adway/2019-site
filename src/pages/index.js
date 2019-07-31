@@ -51,7 +51,7 @@ const IndexPage = () => (
       I've always been facinated with the web specifically, but I love learning
       new technologies regardless of their (potential) application. I enjoy
       running programs to get other students excited about programming and
-      making as well. Currently, I'm working on organizing{' '}
+      making as well. Currently, I'm organizing{' '}
       <Link href="https://codeday.org/boston" target="_blank">
         CodeDay Boston
       </Link>{' '}
