@@ -42,16 +42,24 @@ const IndexPage = () => (
       I am also a contributing writer and photographer for the Community
       Advocate Newspaper. I conduct research projects independently and have
       presented a full paper and a poster at the IEEE Integrated STEM Education
-      Education Conference. I am truly fortunate to have won regional, state,
-      and national awards at multiple science fairs. I am grateful that this
-      year, I presented my work at at both the Intel International Science and
-      Engineering Fair, and the National Junior Science and Humanities
-      Symposium. I will also present a fast abstract (2 page paper) at IEEE
-      COMPSAC.
+      Education Conference. I've also presented my work at Intel ISEF, the
+      National JSHS and the IEEE International Computer Software and
+      Applications Conference.
     </P>
     <P mb={3}>
-      At school, I am a member of the Saint John's Mock Trial team. I am also a
-      member of the French Club, and the Be Like Brit Club.
+      One of my other passions is coding. I've been coding since the 4th grade.
+      I've always been facinated with the web specifically, but I love learning
+      new technologies regardless of their (potential) application. I enjoy
+      running programs to get other students excited about programming and
+      making as well. Currently, I'm working on organizing{' '}
+      <Link href="https://codeday.org/boston" target="_blank">
+        CodeDay Boston
+      </Link>{' '}
+      and I'm working on starting a{' '}
+      <Link href="https://hackclub.com" target="_blank">
+        Hack Club
+      </Link>{' '}
+      at my school.
     </P>
   </Layout>
 );
