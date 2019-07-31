@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { capitalize } from 'lodash';
 
-import { Flex, Box, Image, Text, Heading } from 'rebass';
+import { Flex, Box, Text, Heading } from 'rebass';
 import { socials } from '../data.json';
 import Icon from '@hackclub/icons';
 import theme from '../theme/config';
@@ -10,9 +10,12 @@ import theme from '../theme/config';
 import { Link } from './Link';
 import Emoji from './Emoji';
 
-const Avatar = props => (
-  <Image width={125} height={125} borderRadius={9999} {...props} />
-);
+const Avatar = styled.img`
+  max-width: 125px;
+  max-height: 125px;
+  border-radius: 9999px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.125);
+`;
 
 const Name = styled(Heading)`
   color: ${theme.colors.uchicago};
