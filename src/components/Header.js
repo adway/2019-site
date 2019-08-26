@@ -50,7 +50,7 @@ const Social = ({ href, service, ...props }) => (
 
 export default () => (
   <div>
-    <Avatar src="https://pbs.twimg.com/profile_images/1134608799375994880/0IByf_yv_400x400.jpg" />
+    <Avatar src="https://scontent-iad3-1.cdninstagram.com/vp/277e48858cd263ccd6a69561c5dbc9cb/5E0A2D44/t51.2885-19/s320x320/59452970_2349033995366694_4591158638847983616_n.jpg?_nc_ht=scontent-iad3-1.cdninstagram.com" />
     <Name mt={3}>Adway Wadekar</Name>
     <Location>
       <Emoji label="Location Emoji" emoji="📍" />
