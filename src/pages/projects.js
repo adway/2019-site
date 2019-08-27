@@ -12,7 +12,6 @@ import Emoji from '../components/Emoji';
 
 const Title = styled(Text)`
   color: ${theme.colors.black};
-  font-family: 'KoHo';
   font-weight: 600;
   font-size: ${theme.fontSizes[3]}px;
 `;

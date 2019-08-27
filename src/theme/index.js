@@ -1,8 +1,8 @@
-import React from "react"
-import { createGlobalStyle, ThemeProvider as Root } from "styled-components"
-import config from "./config"
+import React from 'react';
+import { createGlobalStyle, ThemeProvider as Root } from 'styled-components';
+import config from './config';
 
-export const theme = config
+export const theme = config;
 
 export const GlobalStyle = createGlobalStyle`
   * {
@@ -31,7 +31,7 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${theme.colors.snow};
     color: ${theme.colors.black};
   }
-`
+`;
 
 const ThemeProvider = ({ children }) => (
   <Root theme={theme}>
@@ -40,6 +40,6 @@ const ThemeProvider = ({ children }) => (
       {children}
     </>
   </Root>
-)
+);
 
-export default ThemeProvider
+export default ThemeProvider;

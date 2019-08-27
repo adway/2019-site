@@ -6,7 +6,7 @@ const colors = {
   silver: '#7a8c97'
 };
 
-const font = '"KoHo", system-ui, Roboto, sans-serif';
+const font = 'system-ui';
 
 const fontSizes = [12, 14, 16, 18, 24, 32, 48, 64, 72, 96];
 const space = [0, 4, 8, 16, 32, 64, 128, 256, 512];

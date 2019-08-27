@@ -19,7 +19,6 @@ const Avatar = styled.img`
 
 const Name = styled(Heading)`
   color: ${theme.colors.uchicago};
-  font-family: 'KoHo';
   font-size: ${theme.fontSizes[5]}px;
 `;
 
