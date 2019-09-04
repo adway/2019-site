@@ -61,6 +61,10 @@ const IndexPage = () => (
       </Link>{' '}
       at my school.
     </P>
+    <P>
+      I regularly update and look at my <Link href="/goals">goals</Link> to help
+      me stay on track, stay motivated, work hard, and not procrastinate.
+    </P>
   </Layout>
 );
 

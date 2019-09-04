@@ -51,5 +51,22 @@
         }
       ]
     }
+  ],
+  "goals": [
+    {
+      "name": "Write a submission-ready history research paper for the Concord Review by December."
+    },
+    {
+      "name": "Draft, complete, and send applications to competetive summer applications"
+    },
+    {
+      "name": "Earn a \"5\" in all 5 of my AP Exams this year"
+    },
+    {
+      "name": "Earn a 1570+ on the SAT in October."
+    },
+    {
+      "name": "Do a computational history project using machine learning (have idea, won't post here)"
+    }
   ]
 }
