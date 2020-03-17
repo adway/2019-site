@@ -8,9 +8,13 @@
   },
   "projects": [
     {
-      "name": "Predicting Opioid Use Disorder Using a Random Forest",
-      "description": "This project uses a random forest classifier to predict adults at risk for developing opioid use disorder.",
+      "name": "Predicting and Understanding Opioid Use Disorder",
+      "description": "This project uses a variety of machine learning techniques to predict adults at risk for developing opioid use disorder.",
       "papers": [
+        {
+          "event": "Drug and Alcohol Dependence",
+          "link": "www.sciencedirect.com/science/article/abs/pii/S0376871620300041"
+        },
         {
           "event": "Intel ISEF",
           "link": "drive.google.com/open?id=1H5csZ1fBgQ_M0_JZY1iRFf-hYUmKpG0C",

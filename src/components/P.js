@@ -4,7 +4,7 @@ import { Text } from 'rebass';
 
 const P = styled(Text).attrs({ mb: 3 })`
   color: ${theme.colors.black};
-  font-weight: 500;
+  font-weight: 400;
   font-size: ${theme.fontSizes[3]}px;
   text-align: justify;
   hyphens: auto;

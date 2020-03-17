@@ -18,25 +18,18 @@ const Title = styled(Text)`
 const Desc = styled(Text)`
   color: ${theme.colors.black};
   font-size: ${theme.fontSizes[2]}px;
-  font-weight: 500;
+  font-weight: 400;
   margin-top: 0.5em;
 `;
 
 const Projects = () => (
   <Layout>
-    <SectionTitle>
-      {' '}
-      <Emoji label="Rocket" emoji="🚀" /> My Work
-    </SectionTitle>
+    <SectionTitle> My Work</SectionTitle>
     <P mt={3}>
-      I conduct projects in the area of social science. I have presented my work
-      at the Worcester Regional Science and Engineering Fair, the Massachusetts
-      State Science and Engineering Fair, the International Science and
-      Engineering Fair, and the National Junior Science and Humanities
-      Symposium. I have presented papers at the IEEE Integrated STEM Education
-      Conference, as well as the IEEE International Computer Software and
-      Applications Conference. I have also been selected as a Broadcom MASTERS
-      semifinalist.
+      My research interests currently lie in understanding substance use
+      disorders and mental illnesses. I have presented my work at a variety of
+      science competitions, and my work has been published in in various venues
+      as well.
     </P>
     <hr></hr>
     <Box mt={3} mb={5}>
@@ -47,10 +40,10 @@ const Projects = () => (
           <ul>
             {project.papers.map(paper => (
               <li>
-                <Link target="_blank" href={`http://${paper.link}`}>
+                <Link target='_blank' href={`http://${paper.link}`}>
                   {paper.event} Paper
                 </Link>{' '}
-                - {paper.location}
+                {paper.location ? ' - ' + paper.location : ''}
               </li>
             ))}
           </ul>

@@ -35,9 +35,9 @@ const pages = {
 
 const Social = ({ href, service, ...props }) => (
   <Box
-    as="a"
-    target="_blank"
-    rel="noopener"
+    as='a'
+    target='_blank'
+    rel='noopener'
     href={href}
     mr={3}
     color={theme.colors.uchicago}
@@ -49,22 +49,22 @@ const Social = ({ href, service, ...props }) => (
 
 export default () => (
   <div>
-    <Avatar src="https://scontent-iad3-1.cdninstagram.com/vp/277e48858cd263ccd6a69561c5dbc9cb/5E0A2D44/t51.2885-19/s320x320/59452970_2349033995366694_4591158638847983616_n.jpg?_nc_ht=scontent-iad3-1.cdninstagram.com" />
+    <Avatar src='https://scontent-iad3-1.cdninstagram.com/v/t51.2885-19/s320x320/59452970_2349033995366694_4591158638847983616_n.jpg?_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_ohc=-iyEyt59UaAAX_wGVX-&oh=c804da388b42408babd534eaab97a3de&oe=5E9B3244' />
     <Name mt={3}>Adway Wadekar</Name>
     <Location>
-      <Emoji label="Location Emoji" emoji="📍" />
+      <Emoji label='Location Emoji' emoji='📍' />
       Boston, MA
     </Location>
-    <Flex flexWrap="wrap" justifyContent={['flex-start']} mt={[3]}>
+    <Flex flexWrap='wrap' justifyContent={['flex-start']} mt={[3]}>
       {Object.entries(socials).map(([social, link]) => (
         <Social key={social} service={social} href={`https://${link}`} />
       ))}
-      <Social key="Email" service="email" href="mailto:adway@adway.io" />
-      <Social key="Resume" service="attachment" href="/resume.pdf" />
+      <Social key='Email' service='email' href='mailto:adway@adway.io' />
+      <Social key='Resume' service='attachment' href='/resume.pdf' />
     </Flex>
-    <Flex flexWrap="wrap" justifyContent={['flex-start']} mt={3} mb={3}>
+    <Flex flexWrap='wrap' justifyContent={['flex-start']} mt={3} mb={3}>
       {Object.entries(pages).map(([page, url]) => (
-        <Link key={page} mr="1" fontSize={theme.fontSizes[3]} href={`/${url}`}>
+        <Link key={page} mr='1' fontSize={theme.fontSizes[3]} href={`/${url}`}>
           {capitalize(page)}
         </Link>
       ))}
