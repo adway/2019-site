@@ -6,26 +6,26 @@
   "author": "Adway Wadekar <adway@adway.io>",
   "dependencies": {
     "@hackclub/icons": "0.0.2",
-    "gatsby": "^2.13.39",
-    "gatsby-image": "^2.2.6",
-    "gatsby-plugin-manifest": "^2.2.4",
-    "gatsby-plugin-offline": "^2.2.4",
-    "gatsby-plugin-react-helmet": "^3.1.2",
-    "gatsby-plugin-sharp": "^2.2.9",
-    "gatsby-plugin-styled-components": "^3.1.2",
-    "gatsby-source-filesystem": "^2.1.6",
-    "gatsby-transformer-sharp": "^2.2.4",
+    "gatsby": "^2.20.8",
+    "gatsby-image": "^2.3.1",
+    "gatsby-plugin-manifest": "^2.3.3",
+    "gatsby-plugin-offline": "^2.2.10",
+    "gatsby-plugin-react-helmet": "^3.2.1",
+    "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-plugin-styled-components": "^3.2.1",
+    "gatsby-source-filesystem": "^2.2.2",
+    "gatsby-transformer-sharp": "^2.4.3",
     "lodash": "^4.17.15",
     "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
-    "rebass": "^3.1.2",
-    "styled-components": "^4.3.2",
-    "styled-system": "^5.0.16"
+    "rebass": "^3.2.2",
+    "styled-components": "^4.4.1",
+    "styled-system": "^5.1.5"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^1.19.1"
   },
   "keywords": [
     "gatsby"
