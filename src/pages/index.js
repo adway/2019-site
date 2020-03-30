@@ -7,20 +7,22 @@ import SectionTitle from '../components/SectionTitle';
 
 const IndexPage = () => (
   <Layout>
-    <SectionTitle>About Me</SectionTitle>
+    <SectionTitle>Hi, I'm Adway.</SectionTitle>
     <P mt={3}>
-      Hi, I’m Adway! I’m a junior at{' '}
+      I’m a junior at{' '}
       <Link href='http://www.stjohnshigh.org' target='_blank'>
         Saint John’s High School
       </Link>{' '}
       in Shrewsbury, Massachusetts. I am interested in studying the human
-      condition using a quantitative approach. Right now, my interests lie in
-      using public domain data to understand mental illnesses and substance
-      abuse disorders. I am also interested in understanding historical texts
-      using a computational approach (a new field!). I conduct self-directed
-      research projects and my work has been published in various IEEE
-      Conferences and in Drug and Alcohol Dependence. I've also presented my
-      work at Intel ISEF and the national JSHS.
+      condition using a quantitative approach. Right now, my research interests
+      lie in using public domain data to understand mental illnesses and
+      substance abuse disorders and in understanding historical texts using a
+      computational approach. I conduct self-directed research projects and my
+      work has been published in various venues. I've also presented my work at
+      the Intel International Science and Engineering Fair and the national
+      Junior Science and Humanities Symposium. I will most likely be starting as
+      a student researcher at McLean Hospital of Harvard Medical School in
+      summer 2020.
     </P>
     <P>
       I am the 2019-2020 Photographer in Residence for the Town of Westborough.
@@ -45,7 +47,8 @@ const IndexPage = () => (
     </P>
     <P>
       Apart from my scientific research and my photography, I am a writer for
-      the Community Advocate and the president of my school's mock trial team.
+      the Community Advocate and the president of my school's mock trial team. I
+      love to help others learn, so I'm a peer tutor at my school.
     </P>
   </Layout>
 );
