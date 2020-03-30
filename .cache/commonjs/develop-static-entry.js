@@ -39,11 +39,7 @@ try {
 Html = Html && Html.__esModule ? Html.default : Html;
 
 var _default = (pagePath, callback) => {
-  let headComponents = [_react.default.createElement("meta", {
-    key: "environment",
-    name: "note",
-    content: "environment=development"
-  })];
+  let headComponents = [];
   let htmlAttributes = {};
   let bodyAttributes = {};
   let preBodyComponents = [];
@@ -112,7 +108,7 @@ var _default = (pagePath, callback) => {
     pathname: pagePath
   });
 
-  const htmlElement = _react.default.createElement(Html, { ...bodyProps,
+  const htmlElement = _react.default.createElement(Html, Object.assign({}, bodyProps, {
     body: ``,
     headComponents: headComponents.concat([_react.default.createElement("script", {
       key: `io`,
@@ -125,7 +121,7 @@ var _default = (pagePath, callback) => {
       key: `commons`,
       src: "/commons.js"
     })])
-  });
+  }));
 
   htmlStr = (0, _server.renderToStaticMarkup)(htmlElement);
   htmlStr = `<!DOCTYPE html>${htmlStr}`;

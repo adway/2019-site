@@ -1,8 +1,8 @@
 var plugins = [{
-      plugin: require('/Volumes/Samsung_T5/dev/WebDevelopment/2019-site/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Volumes/Samsung_T5/dev/WebDevelopment/site/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Volumes/Samsung_T5/dev/WebDevelopment/2019-site/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('/Volumes/Samsung_T5/dev/WebDevelopment/site/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

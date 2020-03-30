@@ -12,12 +12,7 @@ import {
 import emitter from "./emitter"
 import PageRenderer from "./page-renderer"
 import asyncRequires from "./async-requires"
-import {
-  setLoader,
-  ProdLoader,
-  publicLoader,
-  PageResourceStatus,
-} from "./loader"
+import { setLoader, ProdLoader } from "./loader"
 import EnsureResources from "./ensure-resources"
 import stripPrefix from "./strip-prefix"
 
@@ -30,7 +25,8 @@ loader.setApiRunner(apiRunner)
 
 window.asyncRequires = asyncRequires
 window.___emitter = emitter
-window.___loader = publicLoader
+window.___loader = loader
+window.___webpackCompilationHash = window.webpackCompilationHash
 
 navigationInit()
 
@@ -62,7 +58,7 @@ apiRunnerAsync(`onClientEntry`).then(() => {
 
   class LocationHandler extends React.Component {
     render() {
-      const { location } = this.props
+      let { location } = this.props
       return (
         <EnsureResources location={location}>
           {({ pageResources, location }) => (
@@ -77,14 +73,12 @@ apiRunnerAsync(`onClientEntry`).then(() => {
                   id="gatsby-focus-wrapper"
                 >
                   <RouteHandler
-                    path={
+                    path={encodeURI(
                       pageResources.page.path === `/404.html`
                         ? stripPrefix(location.pathname, __BASE_PATH__)
-                        : encodeURI(
-                            pageResources.page.matchPath ||
-                              pageResources.page.path
-                          )
-                    }
+                        : pageResources.page.matchPath ||
+                            pageResources.page.path
+                    )}
                     {...this.props}
                     location={location}
                     pageResources={pageResources}
@@ -123,15 +117,14 @@ apiRunnerAsync(`onClientEntry`).then(() => {
     })
   }
 
-  publicLoader.loadPage(browserLoc.pathname).then(page => {
-    if (!page || page.status === PageResourceStatus.Error) {
+  loader.loadPage(browserLoc.pathname).then(page => {
+    if (!page || page.status === `error`) {
       throw new Error(
-        `page resources for ${browserLoc.pathname} not found. Not rendering React`
+        `page resources for ${
+          browserLoc.pathname
+        } not found. Not rendering React`
       )
     }
-
-    window.___webpackCompilationHash = page.page.webpackCompilationHash
-
     const Root = () => (
       <Location>
         {locationContext => <LocationHandler {...locationContext} />}
@@ -147,7 +140,7 @@ apiRunnerAsync(`onClientEntry`).then(() => {
       }
     ).pop()
 
-    const NewRoot = () => WrappedRoot
+    let NewRoot = () => WrappedRoot
 
     const renderer = apiRunner(
       `replaceHydrateFunction`,
