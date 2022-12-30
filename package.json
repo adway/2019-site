@@ -6,7 +6,7 @@
   "author": "Adway Wadekar <adway@adway.io>",
   "dependencies": {
     "@hackclub/icons": "0.0.2",
-    "gatsby": "^2.20.8",
+    "gatsby": "^2.32.13",
     "gatsby-image": "^2.2.6",
     "gatsby-plugin-manifest": "^2.3.3",
     "gatsby-plugin-offline": "^2.2.4",
